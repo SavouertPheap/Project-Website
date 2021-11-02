@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@0;1&display=swap');
+
+* {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+body{
+    font-size: 1.2rem;
+    background: #fff;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 2rem;
+    background: cornsilk;
+}
+.header:hover{
+    background: none;
+}
+.header .logo{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fa7406;
+}
+.navbar ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+}
+.navbar ul li{
+    padding: 1rem;
+}
+.navbar ul li a{
+    font-weight: 600;
+    color: #fa7406;
+    font-size: 1.7rem;
+}
+.navbar ul li a:hover{
+    color: #fff;
+    background: #fa7406;
+    padding: 0.5rem 2rem;
+}
+
+.header .icons div{
+    font-size: 1.6rem;
+    color:#fa7406;
+    padding: 1rem;
+    cursor: pointer;
+}
+.content{
+    text-align: center;
+}
+.content h3{
+    font-size: 4rem;
+    color: #fa7406;
+    font-weight: bold;
+}
+.content p{
+    font-size: 1.3rem;
+    line-height: 1.8;
+}
+.content button{
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.content button:hover{
+    background: #fa7406;
+    color: white;
+}
+.heading{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+} 
+.heading h3 span{
+    padding: 0.7rem 6rem;
+    color: #fff;
+    clip-path: polygon(75% 0%, 100% 48%, 75% 100%, 0% 100%, 0 50%, 0% 0%);
+    background: #fa7406;
+}
+
+.home{
+    color: white;
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5)), url(../img/bgHome.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+}
+.cities{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.4)), url(/img/bgCities.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+}
+.nature{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(../img/bgNature.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+}
+.hotel{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3)), url(/img/bgHotel.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+}
+.culture{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.6)), url(/img/bgCulture.jpg);
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+}
+.restaurant{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.6)), url(/img/bgRestaurant.png);
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+} 
+.banner_card .card_container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.banner_card .card_container .card{
+    width: 21%;
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.banner_card .card_container .card:hover{
+    transform: translateY(-15px);
+}
+.detail{
+    padding: 2rem;
+    line-height: 3rem;
+    font-size:1.4rem ;
+}
+
+
+/* Footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+.footer_content{
+    text-align: center;
+}
+.footer .footer_content h3{
+    font-size: 2rem;
+    padding: 0.5rem;
+    color: #fa7406;
+    font-weight: bold;
+}
+.footer .footer_content p{
+    font-size: 1.2rem;
+    line-height: 1.7;
+}
+.footer .footer_content .icons div{
+    font-size: 2.2rem;
+    padding: 2rem .5rem;
+    cursor: pointer;
+}
+.footer .footer_content .icons div:hover{
+    color: #fa7406;
+}
+.menu_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    background: #000;
+}
+.menu_footer .menu a{
+    color: #fff;
+    margin: 1rem;
+    line-height: 3rem;
+    text-align: center;
+}
+.menu_footer .menu a:hover{
+    color: #fa7406;
+}
